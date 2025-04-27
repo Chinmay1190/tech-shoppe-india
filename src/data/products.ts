@@ -1,4 +1,3 @@
-
 export interface Product {
   id: string;
   name: string;
@@ -142,6 +141,29 @@ export const products: Product[] = [
     rating: 4.3,
     reviewCount: 268,
     colors: ["Bold Gold", "Cool Black"]
+  },
+  {
+    id: "asus-rog-phone-9",
+    name: "ASUS ROG Phone 9 Ultimate",
+    brand: "ASUS ROG",
+    category: "smartphone",
+    price: 129999,
+    originalPrice: 149999,
+    discount: 13,
+    description: "The ultimate gaming smartphone with advanced cooling and performance",
+    features: [
+      "Snapdragon 8 Gen 3",
+      "16GB RAM + 512GB storage",
+      "6.78-inch 165Hz AMOLED display",
+      "6500mAh dual battery with 75W HyperCharge",
+      "AeroActive Cooler 9 included",
+      "Advanced GameCool thermal system"
+    ],
+    image: "/placeholder.svg",
+    inStock: true,
+    rating: 4.9,
+    reviewCount: 78,
+    colors: ["Phantom Black", "Storm White", "Cyber Cyan"]
   },
   {
     id: "asus-rog-phone-7",
